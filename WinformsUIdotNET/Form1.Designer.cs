@@ -73,7 +73,7 @@ namespace WinformsUIdotNET
 			// panel1
 			// 
 			this.panel1.AutoScroll = true;
-			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(17)))), ((int)(((byte)(7)))));
+			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
 			this.panel1.Controls.Add(this.btnHelp);
 			this.panel1.Controls.Add(this.btnEqualizer);
 			this.panel1.Controls.Add(this.panelPlayListSubMenu);
@@ -88,6 +88,7 @@ namespace WinformsUIdotNET
 			// 
 			this.btnHelp.Dock = System.Windows.Forms.DockStyle.Top;
 			this.btnHelp.FlatAppearance.BorderSize = 0;
+			this.btnHelp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(98)))));
 			this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.btnHelp.ForeColor = System.Drawing.SystemColors.Control;
 			this.btnHelp.Location = new System.Drawing.Point(0, 210);
@@ -104,6 +105,7 @@ namespace WinformsUIdotNET
 			// 
 			this.btnEqualizer.Dock = System.Windows.Forms.DockStyle.Top;
 			this.btnEqualizer.FlatAppearance.BorderSize = 0;
+			this.btnEqualizer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(98)))));
 			this.btnEqualizer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.btnEqualizer.ForeColor = System.Drawing.SystemColors.Control;
 			this.btnEqualizer.Location = new System.Drawing.Point(0, 165);
@@ -197,6 +199,7 @@ namespace WinformsUIdotNET
 			// 
 			this.btnPlayList.Dock = System.Windows.Forms.DockStyle.Top;
 			this.btnPlayList.FlatAppearance.BorderSize = 0;
+			this.btnPlayList.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(98)))));
 			this.btnPlayList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.btnPlayList.ForeColor = System.Drawing.SystemColors.Control;
 			this.btnPlayList.Location = new System.Drawing.Point(0, 0);
@@ -288,8 +291,10 @@ namespace WinformsUIdotNET
 			// 
 			// btnMedia
 			// 
+			this.btnMedia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
 			this.btnMedia.Dock = System.Windows.Forms.DockStyle.Top;
 			this.btnMedia.FlatAppearance.BorderSize = 0;
+			this.btnMedia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(98)))));
 			this.btnMedia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.btnMedia.ForeColor = System.Drawing.SystemColors.Control;
 			this.btnMedia.Location = new System.Drawing.Point(0, 89);
@@ -299,11 +304,12 @@ namespace WinformsUIdotNET
 			this.btnMedia.TabIndex = 1;
 			this.btnMedia.Text = "Media";
 			this.btnMedia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnMedia.UseVisualStyleBackColor = true;
+			this.btnMedia.UseVisualStyleBackColor = false;
 			this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
 			// 
 			// panelLogo
 			// 
+			this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
 			this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
 			this.panelLogo.Location = new System.Drawing.Point(0, 0);
 			this.panelLogo.Name = "panelLogo";
