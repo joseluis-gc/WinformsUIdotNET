@@ -47,12 +47,15 @@ namespace WinformsUIdotNET
 			this.button2 = new System.Windows.Forms.Button();
 			this.btnMedia = new System.Windows.Forms.Button();
 			this.panelLogo = new System.Windows.Forms.Panel();
+			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.panelChildForm = new System.Windows.Forms.Panel();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.panelSlideMenu.SuspendLayout();
 			this.panel1.SuspendLayout();
 			this.panelPlayListSubMenu.SuspendLayout();
 			this.panelMediaSubMenu.SuspendLayout();
+			this.panelLogo.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.panelChildForm.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
@@ -310,11 +313,22 @@ namespace WinformsUIdotNET
 			// panelLogo
 			// 
 			this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+			this.panelLogo.Controls.Add(this.pictureBox2);
 			this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
 			this.panelLogo.Location = new System.Drawing.Point(0, 0);
 			this.panelLogo.Name = "panelLogo";
 			this.panelLogo.Size = new System.Drawing.Size(250, 89);
 			this.panelLogo.TabIndex = 1;
+			// 
+			// pictureBox2
+			// 
+			this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+			this.pictureBox2.Location = new System.Drawing.Point(50, 6);
+			this.pictureBox2.Name = "pictureBox2";
+			this.pictureBox2.Size = new System.Drawing.Size(180, 83);
+			this.pictureBox2.TabIndex = 1;
+			this.pictureBox2.TabStop = false;
 			// 
 			// panelChildForm
 			// 
@@ -349,6 +363,8 @@ namespace WinformsUIdotNET
 			this.panel1.ResumeLayout(false);
 			this.panelPlayListSubMenu.ResumeLayout(false);
 			this.panelMediaSubMenu.ResumeLayout(false);
+			this.panelLogo.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			this.panelChildForm.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
@@ -376,6 +392,7 @@ namespace WinformsUIdotNET
 		private System.Windows.Forms.Button btnEqualizer;
 		private System.Windows.Forms.Panel panelChildForm;
 		private System.Windows.Forms.PictureBox pictureBox1;
+		private System.Windows.Forms.PictureBox pictureBox2;
 	}
 }
 
